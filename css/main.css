@@ -66,7 +66,7 @@ header nav ul li {
 main {
     flex: 1;
     font-size: var(--font-size);
-    padding: var(--spacing);
+    padding: 0px; /*var(--spacing);*/
     color: var(--font-color);
     background-color: var(--background-color);
 }
@@ -247,3 +247,185 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
 body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
 }
+
+/*..............................Body of Home Page................................*/
+
+#home-title {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1000%;
+    margin: 0 auto;
+}
+
+.Home-Body-Grid section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Home-Body-Grid section * {
+    margin: 0 auto;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+  }
+
+.Home-Body-Grid .left-column {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.Home-Body-Grid .middle-column {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.Home-Body-Grid .right-column {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+#Dave-scenic {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+
+#classic-ww {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+  
+#Matt-glasses {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+
+.book-but {
+    display: flex;
+    font-size: 30px;
+  }
+
+.but-div {
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#home-tline {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+#home-bline {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+#paddle-pic {
+    display: flex;
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+#home-bottom {
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+/*..............................Wireframe Page................................*/
+
+.wire-body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.wireframe {
+    text-align: center;
+}
+
+.wire-body-grid #left-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    grid-column:1/2;
+    grid-row:1/2;
+  }
+
+.wire-body-grid #middle-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    grid-column:2/3;
+    grid-row:1/2;
+  }
+
+.wire-body-grid #right-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+#hmpg {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+
+#abtuspg {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+#cvdpg {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+
+#wrfrmpg {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+  
+#cntctuspg {
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+
+/*#left-column-wire {
+    justify-self: center;
+}*/
