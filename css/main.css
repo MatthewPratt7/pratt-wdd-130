@@ -626,9 +626,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 }
 
 
-
-
-
 /*..............................FAQ Page................................*/
 
 
@@ -653,3 +650,41 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 
 /*..............................COVID-19 Page................................*/
+
+
+#covid-title {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+}
+
+#covid-banner {
+    width: 100%;
+    height: auto;
+  }
+
+#cvdhd {
+    font-size: 30px;
+    padding-left: 110px;
+}
+
+.cvdtxt {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.cvdblt {
+    padding-left: 150px;
+    padding-right: 180px;
+}
+
+.blt {
+    padding: 10px;
+}
+
+#cvdbtm {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 30px;
+}
+
