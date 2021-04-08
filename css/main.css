@@ -358,10 +358,22 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 /*..............................Wireframe Page................................*/
 
+#wire-title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#wire-title-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
 .wire-body-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 .wireframe {
@@ -374,7 +386,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     padding: 10px;
     text-align: center;
     grid-column:1/2;
-    grid-row:1/2;
   }
 
 .wire-body-grid #middle-column-wire {
@@ -383,10 +394,29 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     padding: 10px;
     text-align: center;
     grid-column:2/3;
-    grid-row:1/2;
   }
 
 .wire-body-grid #right-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .wire-body-grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+  .wire-body-grid-two #bottom-left-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .wire-body-grid-two #bottom-right-column-wire {
     margin: 20px;
     border: 1px solid;
     padding: 10px;
@@ -426,6 +456,235 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     padding: 20px;
   }
 
-/*#left-column-wire {
+
+/*..............................About Us Page................................*/
+
+
+#abtus-title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#history {
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+.our-history {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+#managers {
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+.abtus-body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.abtus-body-grid #left-col {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 110px;
+  }
+
+.abtus-body-grid #right-col {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    padding-right: 110px;
+  }
+
+#arne {
+    max-width: 350px;
+    height: auto;
+    justify-content: center;
+  }
+
+#matt {
+    max-width: 350px;
+    height: auto;
+    justify-content: center;
+}
+
+.abtus-m {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/*..............................Contact-Us Page................................*/
+
+
+#cntctus-title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#cntctus-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#name-email {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#c-name {
+    height: 25px;
+    width: 300px;
+    grid-column: 2;
+    grid-row: 2;
     justify-self: center;
-}*/
+}
+
+#c-email {
+    height: 25px;
+    width: 300px;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+}
+
+#nm {
+    height: 25px;
+    width: 300px;
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 40px;
+}
+
+#em {
+    height: 25px;
+    width: 300px;
+    grid-column: 3;
+    grid-row: 1;
+    padding-left: 40px;
+}
+
+#sub-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#subj {
+    height: 25px;
+    width: 300px;
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 40px;
+}
+
+#c-subject {
+    height: 25px;
+    width: 675px;
+    grid-column: 2/4;
+    grid-row: 2;
+    justify-self: center;
+}
+
+#mes-mes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#mesg {
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 40px;
+}
+
+#c-message {
+    height: 300px;
+    width: 675px;
+    grid-column: 2/4;
+    grid-row: 2;
+    justify-self: center;
+}
+
+#contact-form-submit {
+    height: 30px;
+    width: 175px;
+    grid-column: 2/4;
+    grid-row: 4;
+    justify-self: center;
+    margin: 30px;
+}
+
+
+/*..............................FAQ Page................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............................COVID-19 Page................................*/
+
+
+#covid-title {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+}
+
+#covid-banner {
+    width: 100%;
+    height: auto;
+  }
+
+#cvdhd {
+    font-size: 30px;
+    padding-left: 110px;
+}
+
+.cvdtxt {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.cvdblt {
+    padding-left: 150px;
+    padding-right: 180px;
+}
+
+.blt {
+    padding: 10px;
+}
+
+#cvdbtm {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 30px;
+}
+
