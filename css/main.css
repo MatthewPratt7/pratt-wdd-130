@@ -358,10 +358,22 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 /*..............................Wireframe Page................................*/
 
+#wire-title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#wire-title-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
 .wire-body-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 .wireframe {
@@ -374,7 +386,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     padding: 10px;
     text-align: center;
     grid-column:1/2;
-    grid-row:1/2;
   }
 
 .wire-body-grid #middle-column-wire {
@@ -383,10 +394,29 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     padding: 10px;
     text-align: center;
     grid-column:2/3;
-    grid-row:1/2;
   }
 
 .wire-body-grid #right-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .wire-body-grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+  .wire-body-grid-two #bottom-left-column-wire {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .wire-body-grid-two #bottom-right-column-wire {
     margin: 20px;
     border: 1px solid;
     padding: 10px;
