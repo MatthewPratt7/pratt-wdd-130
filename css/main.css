@@ -248,7 +248,9 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
 }
 
+
 /*..............................Body of Home Page................................*/
+
 
 #home-title {
     display: flex;
