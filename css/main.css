@@ -248,7 +248,9 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
 }
 
+
 /*..............................Body of Home Page................................*/
+
 
 #home-title {
     display: flex;
@@ -629,24 +631,41 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 /*..............................FAQ Page................................*/
 
 
+#faq-title {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+}
 
+#faq-banner {
+    width: 100%;
+    height: auto;
+  }
 
+#faqhd {
+    font-size: 30px;
+    padding-left: 110px;
+}
 
+.faqtxt {
+    padding-left: 110px;
+    padding-right: 110px;
+}
 
+.faqblt {
+    padding-left: 150px;
+    padding-right: 180px;
+}
 
+.fblt {
+    padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#faqbtm {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 30px;
+}
 
 
 /*..............................COVID-19 Page................................*/
